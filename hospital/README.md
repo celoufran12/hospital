@@ -16,11 +16,8 @@ This is a simple Hospital Triage web application built using Flask and SQLite.
     ```
     pip install -r requirements.txt
     ```
-4. Initialize the database:
-    ```python
-    from app import db
-    db.create_all()
-    ```
+4. Initialize the database run the `init_db.py` script.
+    
 
 ## Usage
 
@@ -43,7 +40,7 @@ This project is part of a series of assignments to build a web application. It i
 ### Application Features
 
 - **Patient Management**: Add and view patients based on severity and wait time.
-- **Admin Panel**: Administer the application by adding new patients.
+- **Admin Panel**: Administer the application by adding new patients. To access the admin panel, navigate to `/admin`.
 
 ## Developer and User Documentation
 

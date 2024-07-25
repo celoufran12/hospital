@@ -11,7 +11,7 @@ from models import *
 
 @app.route('/')
 def index():
-    patients = Patient.query.order_by(Patient.wait_time.asc()).all()
+    patients = Patient.query.order_by(Patient.severity.desc(), Patient.wait_time.asc()).all()
     return render_template('index.html', patients=patients)
 
 @app.route('/admin', methods=['GET', 'POST'])
@@ -41,6 +41,11 @@ def admin():
         return redirect(url_for('admin'))
     patients = Patient.query.all()
     return render_template('admin.html', patients=patients)
+
+@app.route('/patients')
+def patients():
+    patients = Patient.query.order_by(Patient.wait_time.asc()).all()
+    return render_template('patient_list.html', patients=patients)
 
 @app.route('/init_db')
 def init_db():
