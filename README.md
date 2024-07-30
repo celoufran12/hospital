@@ -64,3 +64,10 @@ The following are screenshots of the 2 pages of the application/webapp. The regu
 ![regular page](https://github.com/celoufran12/hospital/blob/main/regular_user_page.PNG)
 
 ![admin page](https://github.com/celoufran12/hospital/blob/main/admin_page.PNG)
+
+
+### Video
+
+Here's a video we've recorded demonstrating that the website works. The regular user page refreshes every 10 seconds to get the latest list.
+
+[![Demo video](https://github.com/celoufran12/hospital/blob/main/regular_user_page.PNG)](https://github.com/celoufran12/hospital/blob/main/compressed_CSI3140_Hospital_demo.mp4)
