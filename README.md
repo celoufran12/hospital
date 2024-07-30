@@ -53,3 +53,14 @@ This project is part of a series of assignments to build a web application. It i
 
 - **Patients**: View the list of patients sorted by severity and wait time.
 - **Admin**: Add new patients via the admin panel.
+
+
+## Demo
+
+### Screenshots
+
+The following are screenshots of the 2 pages of the application/webapp. The regular user page (1st image) and the admin page where you can add, update or remove users/patients (2nd image).
+
+![regular page](https://github.com/celoufran12/hospital/blob/main/regular_user_page.PNG)
+
+![admin page](https://github.com/celoufran12/hospital/blob/main/admin_page.PNG)
